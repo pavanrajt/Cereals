@@ -82,7 +82,7 @@ Matrix.RMSE = do.call(cbind, List)
 
 
 ## Prepare boxplot
-boxplot(Matrix.RMSE[,56], ylab = "RMSE", main = "RMSE BoxPlot (length of traning set = 62)")
+boxplot(Matrix.RMSE[,56], ylab = "RMSE", main = "RMSE BoxPlot (length of traning set = 65)")
 
 ## Variation of median RMSE 
 #install.packages("matrixStats")
